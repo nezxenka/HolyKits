@@ -1,0 +1,12 @@
+storage-type: "sqlite" # "mysql" или "sqlite"
+
+mysql:
+  host: "localhost"
+  port: 3306
+  database: "lite_kits"
+  username: "plugins"
+  password: "kits"
+  useSSL: false
+
+sqlite:
+  filename: "kits.db"
